@@ -22,7 +22,7 @@ end
 
 def current_player(board)
   turn_counter(board)
-  X = count % 2 == 0
-  O = count % 2 == 1
+  x = count % 2 == 0
+  o = count % 2 == 1
 end
     
