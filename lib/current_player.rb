@@ -10,7 +10,7 @@ board = [
   " "
 ]
 
-counter = 0
+counter = 1
 
 def turn_count(board)
   board.each do |move|
