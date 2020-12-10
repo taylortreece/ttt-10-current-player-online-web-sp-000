@@ -22,8 +22,6 @@ end
 
 def current_player(board)
   turn_count(board)
-  if counter == 0
-    return "X"
   elsif counter.even?
     return "O"
   elsif counter.odd?
