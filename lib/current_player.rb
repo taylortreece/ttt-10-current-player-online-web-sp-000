@@ -19,5 +19,5 @@ def turn_count(board)
     else
       board[move] = "X"
     end
-end
+  end
 end
