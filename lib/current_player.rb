@@ -16,5 +16,6 @@ def turn_count(board)
   if board[move] != " "
     counter += 1
   end
+  turn_count = counter
  end
 end
