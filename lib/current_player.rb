@@ -25,4 +25,3 @@ def current_player(board)
   x = count % 2 == 0
   o = count % 2 == 1
 end
-    
