@@ -19,3 +19,10 @@ def turn_count(board)
  end
  return counter
 end
+
+def current_player(board)
+  turn_counter(board)
+  X = count % 2 == 0
+  O = count % 2 == 1
+end
+    
