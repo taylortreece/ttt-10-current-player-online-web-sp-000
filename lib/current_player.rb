@@ -28,4 +28,3 @@ def current_player(board)
   elsif count % 2 == 0
     return "X"
 end
-    
